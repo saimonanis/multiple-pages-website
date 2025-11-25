@@ -10,6 +10,7 @@ nav{
     justify-content: space-between;
     background-color: #1A1244;
     padding: 10px 200px;
+    border-bottom: 4px solid #8855bb;
 }
 nav ul{
     
@@ -41,3 +42,72 @@ nav div{
     color: white;
     font-size: 20px;
 }
+
+
+
+/* hero area code stard */
+
+
+header{
+    background-image: url('images/website\ banner.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+.searchbox-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.searchbox-icon-parent i{
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.searchbox-icon-parent input{
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
